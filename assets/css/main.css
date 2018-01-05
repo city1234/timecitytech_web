@@ -10,7 +10,7 @@
 /* Reset */
 
 	*{
-		font-family: 'Open Sans';
+		font-family: '微軟正黑體';
 	}
 
 
@@ -3096,7 +3096,7 @@
 	}
 
 	#header {
-		background-color: rgba(0,0,0,.9);
+		background-color: rgba(17,17,17,.9);
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -3774,6 +3774,19 @@
 
 	}
 
+	#two .section-title{
+		text-align: center;
+	}
+	#two .section-title .section-titleb{
+		font-size: 2.3em;
+		font-weight: bold;
+	}
+	#two .section-title .section-titles{
+		position:relative;
+		letter-spacing:1px;
+		top: -30px;
+		color:#999999;
+	}
 		#two .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
@@ -3923,7 +3936,7 @@
 /* Footer */
 
 	#footer {
-		background-color:#000;
+		background-color:#111;
 		padding: 1em 0 0.5em 0;
 	}
 
